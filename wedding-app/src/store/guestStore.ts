@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { Guest } from '../types';
+import type { Guest } from '../types';
 
 interface GuestStore {
   guests: Guest[];

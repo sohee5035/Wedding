@@ -3,14 +3,13 @@ import { useVenueStore } from '../store/venueStore';
 import { useChecklistStore } from '../store/checklistStore';
 import { useBudgetStore } from '../store/budgetStore';
 import { useGuestStore } from '../store/guestStore';
-import { FaHeart, FaCalendarAlt, FaEdit } from 'react-icons/fa';
+import { FaHeart, FaEdit } from 'react-icons/fa';
 import { useState } from 'react';
 
 const Home = () => {
   const weddingInfo = useWeddingInfoStore();
   const venues = useVenueStore((state) => state.venues);
   const checklistItems = useChecklistStore((state) => state.items);
-  const budgetItems = useBudgetStore((state) => state.items);
   const guests = useGuestStore((state) => state.guests);
 
   const [isEditing, setIsEditing] = useState(false);

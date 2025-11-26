@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { WeddingVenue } from '../types';
+import type { WeddingVenue } from '../types';
 
 interface VenueStore {
   venues: WeddingVenue[];

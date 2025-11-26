@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { ChecklistItem } from '../types';
+import type { ChecklistItem } from '../types';
 
 interface ChecklistStore {
   items: ChecklistItem[];

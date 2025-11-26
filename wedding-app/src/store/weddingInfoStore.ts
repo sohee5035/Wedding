@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { WeddingInfo } from '../types';
+import type { WeddingInfo } from '../types';
 
 interface WeddingInfoStore extends WeddingInfo {
   updateInfo: (info: Partial<WeddingInfo>) => void;

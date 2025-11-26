@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useChecklistStore } from '../store/checklistStore';
-import { FaPlus, FaTrash, FaEdit, FaCheck, FaTimes } from 'react-icons/fa';
+import { FaPlus, FaTrash, FaEdit } from 'react-icons/fa';
 
 const Checklist = () => {
   const { items, addItem, updateItem, deleteItem, toggleComplete } = useChecklistStore();

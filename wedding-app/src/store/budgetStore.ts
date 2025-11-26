@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { BudgetItem } from '../types';
+import type { BudgetItem } from '../types';
 
 interface BudgetStore {
   items: BudgetItem[];

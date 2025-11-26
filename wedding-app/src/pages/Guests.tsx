@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useGuestStore } from '../store/guestStore';
 import { FaPlus, FaTrash, FaEdit, FaUserTie, FaUserSecret } from 'react-icons/fa';
-import { Guest } from '../types';
+import type { Guest } from '../types';
 
 const Guests = () => {
   const { guests, addGuest, updateGuest, deleteGuest, getGuestsBySide, getAttendingCount } =
