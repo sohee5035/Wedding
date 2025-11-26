@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master
+      - claude/wedding-app-design-01MHWmX1Yh4ZzcyRQgaTW6Jw
   workflow_dispatch:
 
 permissions:
